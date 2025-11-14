@@ -72,14 +72,18 @@ article {
     margin: 18px;
     text-align: left;
     opacity: 0.9;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent2-color);
+    color: black;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    border: solid black;
+    border: solid var(--secondary-color);
 }
 
 section h2 {
@@ -98,7 +102,7 @@ section p {
 footer p {
     padding: 0;
     font-size: small;
-    margin: ;
+    margin: 0;
 }
 
 .socialmedia img {
