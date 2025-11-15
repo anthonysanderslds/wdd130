@@ -3,8 +3,8 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --heading-font: "Amazon Ember", "normal";
-    --body-font: "Amazon Ember", "normal";
+    --heading-font: "Robot", Arial, serif;
+    --body-font: "Roboto", Arial, sans-serif;
 }
 
 * {
