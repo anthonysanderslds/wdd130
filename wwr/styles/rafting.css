@@ -3,8 +3,8 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --heading-font: "Roboto", Arial, sans-serif;
-    --body-font: "Roboto", Arial, sans-serif;
+    --heading-font: "Arial", Helvetica, sans-serif;
+    --body-font: "Arial", Helvetica, sans-serif;
 }
 
 * {
