@@ -22,6 +22,7 @@
 main {
     grid-column: 2/3;
     margin: 1rem;
+    max-width: 840px;
 }
 
 aside {
@@ -51,10 +52,6 @@ nav a {
     text-decoration: none;
 }
 
-main {
-    max-width: 840px;
-}
-
 main img {
     width: 150px;
     height: auto;
@@ -62,7 +59,7 @@ main img {
     padding: 1px;
     box-shadow: 0 0 30px #333;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem;
 }
 
 aside {
