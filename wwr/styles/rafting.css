@@ -17,6 +17,7 @@ header {
     display: grid;
     grid-template-columns: 40% 60%;
     align-items: center;
+    background-color: white;
 }
 
 header div.logo {
@@ -34,7 +35,6 @@ nav ul {
 
 li a {
     text-decoration: none;
-    font-style: bold;
 }
 
 body {
@@ -85,10 +85,10 @@ article {
 }
 
 .history img {
-    float: center;
-    width: 200px;
-    margin: 0 16px 16px 0;
+    width: 210px;
     border: solid var(--secondary-color);
+    align-items: center;
+    justify-items: center;
 }
 
 figure img,
@@ -151,21 +151,39 @@ section p {
     font-size: small;
 }
 
+footer {
+    background-color: white;
+    text-align: center;
+}
+
 .footer-content {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 footer p {
-    padding: 0;
     font-size: small;
-    margin: 0;
+    margin-inline: auto;
     text-align: center;
+    grid-column: span 3;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 .socialmedia img {
     width: 32px;
     height: auto;
-    float: right;
-    margin: 0 8px;
+    padding: 1px;
 }
