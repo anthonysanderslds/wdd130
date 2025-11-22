@@ -9,14 +9,21 @@
     --text-align: center;
 }
 
-.grid, header, footer {
+header,
+footer {
     max-width: 840px;
     margin: 0 auto;
 }
 
 .grid {
     display: grid;
-    align-items: center;
+    justify-items: center;
+    max-width: 840px;
+}
+
+body div {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 main {
