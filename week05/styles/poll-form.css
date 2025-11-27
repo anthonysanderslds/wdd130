@@ -1,0 +1,106 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: black;
+}
+
+header,
+h1 {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+form {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 40px 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    background-color: rgb(54, 69, 79);
+    border-radius: 10px;
+    display: grid;
+}
+
+fieldset {
+    gap: 5px;
+    margin: 1rem;
+    border: 1px solid rgb(12, 0, 0 / .2);
+    color: white;
+    margin-top: 0 auto;
+}
+
+legend {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+label {
+    text-align: right;
+    padding: right;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin: 10px 13px;
+    font-size: medium;
+    text-align: left;
+}
+
+textarea {
+    width: 500px;
+}
+
+.textarea-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
