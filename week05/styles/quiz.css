@@ -21,7 +21,8 @@ form {
 
 input,
 textarea,
-select, button {
+select,
+button {
     padding: .75rem;
     width: 350px;
 }
