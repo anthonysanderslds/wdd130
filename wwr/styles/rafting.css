@@ -263,7 +263,6 @@ button {
 .radio-options {
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 .radio-options div {
