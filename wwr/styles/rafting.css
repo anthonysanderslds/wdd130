@@ -64,8 +64,6 @@ article {
     padding: 8px;
 }
 
-
-
 .hero {
     position: relative;
 }
@@ -116,6 +114,10 @@ h1 {
     color: #fff;
 }
 
+.hero-c h1 {
+    position: relative;
+}
+
 article {
     position: absolute;
     top: 150px;
@@ -151,6 +153,22 @@ section p {
     font-size: small;
 }
 
+.contact p {
+    padding: 0;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 375px;
+    height: 355px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 footer {
     background-color: white;
     text-align: center;
@@ -177,6 +195,60 @@ footer nav {
     justify-content: center;
 }
 
+.map-form-group, .purpose, .column2 {
+    display: grid;
+    grid-template-columns: 0.75fr 2fr;
+    gap: 2rem;
+    padding: .25rem 0;
+    align-items: center;
+}
+
+.message-box {
+    padding: .25rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.employees {
+    display: block;
+    background-color: antiquewhite;
+    padding: 5px 0;
+}
+
+.employees h2 {
+    color: black;
+    text-align: center;
+    margin: 1rem;
+}
+
+.employees div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+textarea {
+    width: auto;
+}
+
+.checkbox {
+    text-align: left;
+    padding: 5px 0;
+}
+
+button {
+    width: 370px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    display: block;
+    justify-self: center;
+}
+
+.column2 input {
+    padding: 10px;
+}
+
 .socialmedia a {
     text-decoration: none;
     margin-right: 10px;
@@ -186,4 +258,14 @@ footer nav {
     width: 32px;
     height: auto;
     padding: 1px;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.radio-options div {
+    padding: .5rem;
 }
