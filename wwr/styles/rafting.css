@@ -14,6 +14,53 @@
     box-sizing: border-box;
 }
 
+.fun {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    text-align: center;
+}
+
+.fun div {
+    display: flex;
+    justify-items: center;
+}
+
+.fun figure {
+    align-self: center;
+    padding: 0.5rem;
+}
+
+.fun ul {
+    font-size: large;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.fun li {
+    padding: 0;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.home-trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.home-trips p {
+    text-align: center;
+    font-size: large;
+}
+
+.home-trips img {
+    max-width: 300px;
+    height: auto;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
 header {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -102,6 +149,23 @@ figcaption {
     grid-template-columns: repeat(5, 1fr);
     padding: 15px;
     justify-items: center;
+}
+
+.trips div, h4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.25rem;
+    text-align: center;
+    justify-self: center;
+    margin: 1rem;
+}
+
+.trips img {
+    width: 200px;
+}
+
+h4 {
+    display: block;
 }
 
 h1 {
@@ -284,4 +348,22 @@ button {
 
 .radio-options div {
     padding: .5rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140, 140, 140);
+    letter-spacing: 1px;
+}
+
+th, td {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr, tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
 }
